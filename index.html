@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viacep</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" type="text/javascript" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+        <img src="https://viacep.com.br/estatico/images/viacep.png.pagespeed.ce.I80LiA6qpr.png"/>
+    </div>
+
+    <div id="container">
+        <div id="content">
+            <div id="search">
+                <input id="search-text" class="search-inputs" type="text" placeholder="Digite o CEP sem pontuação" />
+                <input id="search-btn" class="search-inputs" type="button" value="Procurar" />
+            </div>
+            <div id="result">
+                <ul>
+                    <li id="bairro"></li>
+                    <li id="cep"></li>
+                    <li id="complemento"></li>
+                    <li id="ddd"></li>
+                    <li id="gia"></li>
+                    <li id="ibge"></li>
+                    <li id="localidade"></li>
+                    <li id="logradouro"></li>
+                    <li id="siafi"></li>
+                    <li id="uf"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
